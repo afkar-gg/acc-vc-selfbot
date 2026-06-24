@@ -18,12 +18,20 @@ Please edit the `./config.json` file first.
 ### Config Information
 
 ```json
- {
-    "Token": "tokenhere",
+{
+    "Tokens": ["token1", "token2", "token3"],
     "Guild": "", // guild that where spam be in
     "Channel": "" // channel id for spam
 }
 ```
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/547776045000949770)](https://discord.com/users/547776045000949770)
+Backward compatible:
+```json
+{
+    "Token": "tokenhere",
+    "Guild": "",
+    "Channel": ""
+}
+```
 
+[![Discord Presence](https://lanyard.cnrad.dev/api/547776045000949770)](https://discord.com/users/547776045000949770)
